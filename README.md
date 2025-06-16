@@ -192,5 +192,31 @@ Stores feedback submitted by users for properties.
   - Belongs to a **Property**
 
 
+## ✨ Feature Breakdown
+
+This section outlines the core functionalities of the Airbnb Clone project and how they contribute to the overall user experience and platform capabilities.
+
+### 👤 User Management
+This feature allows users to register, authenticate, and manage their profiles securely. It supports role-based interactions, enabling users to act as guests or hosts depending on their actions on the platform.
+
+### 🏡 Property Management
+Hosts can create, update, and delete property listings. This feature ensures that all property data (descriptions, prices, availability, etc.) is maintained accurately, forming the backbone of the booking experience.
+
+### 📆 Booking System
+Users can browse available properties and make bookings with check-in and check-out dates. It handles the logic behind availability, overlapping dates, and booking confirmation to streamline the reservation process.
+
+### 💳 Payment Processing
+Secure payment processing is integrated to handle transactions associated with bookings. It ensures that users can pay for their stays safely, and that hosts receive proper financial tracking.
+
+### ⭐ Review System
+Guests can leave reviews and ratings for properties they’ve booked. This feature builds trust and transparency, helping future guests make informed decisions and allowing hosts to improve their services.
+
+### 🚀 API Documentation
+The system includes comprehensive REST and GraphQL APIs documented using the OpenAPI standard. This ensures that frontend developers or third-party clients can easily integrate with the backend.
+
+### ⚡ Data Optimization
+To ensure performance and scalability, database indexing and caching strategies are implemented. This improves data retrieval times and minimizes the load on backend resources.
+
+
 > 💡 **Note**: This project is an excellent opportunity to practice professional software development workflows, API security, and collaborative project execution.
 
