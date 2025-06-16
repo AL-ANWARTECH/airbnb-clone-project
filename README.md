@@ -217,6 +217,32 @@ The system includes comprehensive REST and GraphQL APIs documented using the Ope
 ### ⚡ Data Optimization
 To ensure performance and scalability, database indexing and caching strategies are implemented. This improves data retrieval times and minimizes the load on backend resources.
 
+## 🔐 API Security
+
+Ensuring the security of the backend APIs is critical for protecting user data, preventing abuse, and maintaining trust in the platform. The following key security measures will be implemented throughout the project:
+
+### 🔑 Authentication
+Users will be required to authenticate using secure methods such as token-based authentication (e.g., JWT). This ensures that only legitimate users can access the system, helping to prevent unauthorized access to sensitive user data and operations.
+
+### 🛡️ Authorization
+Role-based access control (RBAC) will be used to differentiate between guest and host permissions. For example, only hosts can create or edit property listings, while guests can book and review properties. This prevents users from performing actions outside their intended scope.
+
+### ⏱️ Rate Limiting
+To protect the API from abuse, rate limiting will restrict the number of requests a user or IP address can make in a given timeframe. This helps prevent denial-of-service attacks and reduces the risk of brute-force login attempts.
+
+### 🔒 Secure Communication
+All data transmission between clients and the server will be encrypted using HTTPS. This prevents man-in-the-middle attacks and ensures that sensitive data such as login credentials and payment details are not exposed.
+
+### 🧼 Input Validation and Sanitization
+User inputs will be validated and sanitized to prevent common attacks like SQL injection, cross-site scripting (XSS), and command injection. This measure enhances the overall robustness of the application.
+
+### 🧾 Secure Payment Handling
+Payment processing will be integrated with secure third-party services (e.g., Stripe) to handle sensitive financial data. This reduces liability and ensures compliance with financial regulations and PCI-DSS standards.
+
+### 🔍 Logging and Monitoring
+Security-related events will be logged and monitored to detect and respond to potential threats in real time. This includes failed login attempts, suspicious activity, and unexpected API usage patterns.
+
+---
 
 > 💡 **Note**: This project is an excellent opportunity to practice professional software development workflows, API security, and collaborative project execution.
 
