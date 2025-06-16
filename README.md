@@ -17,14 +17,35 @@ This project is designed to deepen your knowledge of backend development, databa
 
 ## ⚙️ Technology Stack
 
-- **Django** – Python web framework for building the backend.
-- **Django REST Framework** – For developing RESTful APIs.
-- **PostgreSQL** – Relational database for data storage.
-- **GraphQL** – For flexible and efficient querying of data.
-- **Celery** – Handles asynchronous tasks such as notifications and payments.
-- **Redis** – Used for caching and session management.
-- **Docker** – Containerization for development and deployment.
-- **CI/CD Pipelines** – GitHub Actions or similar tools for automated testing and deployment.
+Below is a breakdown of the technologies used in this project and their specific roles:
+
+### 🔹 Django
+A high-level Python web framework used for building and structuring the backend of the application. It handles routing, request processing, and business logic implementation.
+
+### 🔹 Django REST Framework (DRF)
+An extension for Django that simplifies the creation of RESTful APIs. It provides tools for serialization, authentication, and standard HTTP method support (GET, POST, PUT, DELETE).
+
+### 🔹 PostgreSQL
+A robust, open-source relational database used to store all persistent data such as user details, property listings, bookings, payments, and reviews.
+
+### 🔹 GraphQL
+A query language for APIs that allows clients to request exactly the data they need. It provides a more efficient and flexible alternative to REST for specific use cases.
+
+### 🔹 Celery
+An asynchronous task queue used for running background tasks, such as sending confirmation emails, processing payments, or generating reports.
+
+### 🔹 Redis
+An in-memory data store used alongside Celery to manage task queues, and also as a caching layer to enhance performance and reduce database load.
+
+### 🔹 Docker
+A containerization platform that packages the project and its dependencies into isolated environments. This ensures consistent development, testing, and production environments.
+
+### 🔹 GitHub Actions (CI/CD)
+A tool used to automate testing, linting, and deployment of the application whenever code changes are pushed to the repository.
+
+---
+
+
 
 ## 👥 Team Roles
 
