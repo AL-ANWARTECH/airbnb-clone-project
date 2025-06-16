@@ -26,6 +26,37 @@ This project is designed to deepen your knowledge of backend development, databa
 - **Docker** – Containerization for development and deployment.
 - **CI/CD Pipelines** – GitHub Actions or similar tools for automated testing and deployment.
 
+## 👥 Team Roles
+
+In this project, multiple specialized roles work collaboratively to ensure successful delivery of the Airbnb Clone backend. Below are the core team roles and their responsibilities:
+
+### 🔧 Backend Developer
+- Implements the RESTful and GraphQL API endpoints.
+- Develops business logic for user authentication, property management, bookings, and payments.
+- Ensures code is modular, maintainable, and testable.
+
+### 🛢️ Database Administrator (DBA)
+- Designs and manages the PostgreSQL database schema.
+- Optimizes database performance through indexing and query tuning.
+- Ensures data integrity, backup strategies, and availability.
+
+### 🚀 DevOps Engineer
+- Sets up and manages CI/CD pipelines using GitHub Actions or similar tools.
+- Configures Docker environments for development and deployment.
+- Monitors server uptime and ensures scalability and security in deployment.
+
+### ✅ QA Engineer
+- Develops and runs test plans to verify backend functionality.
+- Automates API testing and ensures endpoints meet expected behavior.
+- Reports and tracks bugs, ensuring issues are resolved before deployment.
+
+### 📄 Technical Writer / Documentation Specialist (Optional Role)
+- Maintains up-to-date and developer-friendly documentation.
+- Writes detailed API specs (OpenAPI), architecture guides, and setup instructions.
+- Ensures documentation supports onboarding and third-party integrations.
+
+---
+
 ## 📁 Repository Structure
 
 - `README.md` – Project documentation and overview
